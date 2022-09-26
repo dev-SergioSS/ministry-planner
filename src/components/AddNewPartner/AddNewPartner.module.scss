@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+
+.input {
+	border: 1px solid #000;
+}
+
+.add {
+	display: inline-block;
+	margin: 0 20px;
+	background-color: #efefef;
+
+	&.on {
+		background-color: greenyellow;
+	}
+}
